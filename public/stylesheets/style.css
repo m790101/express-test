@@ -1,0 +1,39 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
+.header-wrapper {
+    width:60%;
+    margin: 20px 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: start;
+}
+.nav-bar {
+    display:flex;
+    grid-column: 2/3;
+    gap: 0 10px;
+}
+.index-section {
+    grid-column: 1/2;
+}
+.btn {
+    display: block;
+    width: 60px;
+    padding:5px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 5px;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color:white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.body-section {
+    padding:20px;
+}
